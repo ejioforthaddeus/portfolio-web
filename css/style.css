@@ -1,0 +1,255 @@
+@import url(fonts/icomoon/fonts/icomoon1a44.eot);
+
+@import url(/css/partials/variables.css);
+ 
+.navbar-nav{margin-left: 30%;}
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 2rem 0 1rem !important;
+    z-index: 1000;
+}
+.header-area .main-menu .navbar{
+    padding: 1rem 5rem;
+}
+.header-area .main-menu .nav-item .nav-link{
+    font-family:"icomoon",Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1.7rem;
+     color: var(--title-color);
+     display: flex;
+}
+.header-area .main-menu .navbar-nav .active a{
+    background: navy !important;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    background-clip: text;
+}
+.header-area .main-menu .navbar-nav a:hover{
+    background: navy !important;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    background-clip: text;
+    
+    border-radius: 12%;
+}
+.site-main .site-banner{
+    background-image: url(../images/background1.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.site-main {
+    padding-top: 5% !important;
+    font-weight: 500;
+}
+.site-main .site-banner h3::after{
+    content:"" ;
+ height: 2px;
+ width: 18vw;
+ background: black;
+ display: inline-block;
+ margin-left: 5%;
+ transform: translateY(-10px);
+}
+h1{font-size: 4rem;}
+h4{font-size: 1.5rem;}
+h3{font-size: 3rem;}
+.title-text{font:normal bold 50px/72px;
+font-family: "icomoon",Impact,'Arial Narrow Bold',sans-serif;
+color: rgb(2, 2, 68);}
+.text-uppercase{text-transform: capitalize;}
+.button{
+    padding: .8rem 2.2rem !important;
+    font-family:"icomoon",Impact,'Arial Narrow Bold',sans-serif ;
+    position: relative;
+    border: 2px solid blue;
+    border-radius: 12%;
+}
+.primary-button{
+    background: linear-gradient(90deg, rgb(221, 4, 4) 2%,rgb(105, 196, 248) 100%);
+    color: rgb(20, 97, 4);
+}
+.primary-button:hover{
+    background: linear-gradient(90deg, rgb(0, 0, 12) 2%,rgb(90, 1, 1) 100%);
+    color: white;
+}
+.primary-button::after{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    bottom: -2px;
+    background:linear-gradient(90deg, rgb(201, 3, 3) 2%,rgb(250, 246, 246) 100%);
+}
+.secondary-button{ margin-left: 30% !important
+    ; background: linear-gradient(90deg, rgb(221, 4, 4) 2%,rgb(201, 227, 241) 100%);
+    color: rgb(2, 2, 119);
+    border: 3px solid rgb(70, 1, 70);
+}
+.secondary-button:hover{
+    background: linear-gradient(90deg, rgb(88, 88, 161) 2%,rgb(90, 1, 1) 100%);
+    color: white;
+}
+.site-main2 .site-banner2 h3::after{
+    content:"" ;
+ height: 2px;
+ width: 18vw;
+ background: rgb(17, 17, 17);
+ margin-left: 5%;
+ transform: translateY(-10px);
+}
+.site-main2{
+    padding-top: 10% !important;}
+.brand-area{
+    padding: 1rem 5rem;
+    margin-bottom: 4rem;
+}
+.first-row .brand-area{
+display: flex;
+justify-content: center;
+}
+.single-brand{
+    border: 1px solid rgb(8, 8, 245);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0rem;
+    width: 180px;
+    height: 120px;
+    cursor: pointer;
+    transition: .4s ease;
+    box-shadow: 0px 10px 30px rgb(241, 159, 6);
+}
+.single-brand:hover{
+    background: linear-gradient(90deg, rgb(249, 249, 250) 2%,rgb(250, 3, 3) 100%);
+    transform: scale(1.1 1.1);
+    filter: brightness(.15);
+}
+.expirience-area{
+    background: url(../images/bg2.webp);
+background-repeat: no-repeat;
+padding: .5rem 0rem;
+height: 18rem;
+width: 40rem;
+padding-left: 3rem;
+position: relative;}
+.expirience-area span{
+    padding-left: 1rem;
+    display: block;
+    color: rgb(253, 146, 7);
+    font-weight: 500; 
+    font-family:"icomoon",Impact,'Arial Narrow Bold',sans-serif ;
+}
+.bg-panel{
+    position: absolute;
+    left: -190px;
+    background: #e029290a;
+    width: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+.years{
+    font:normal bold 80px/40px;
+    z-index: 2;
+    font-family:"icomoon",Impact,'Arial Narrow Bold',sans-serif ;
+}
+.services-area{padding: 9rem 2rem;
+}
+.title-text{padding: 0rem 7rem !important;}
+@media(max-width:772px){
+    .navbar-toggler{margin-left: 100% !important;
+    margin-top: -40%;}
+    .navbar-nav{
+    margin-left: 60%;}
+    .nav-item{display: column;}
+    .title-text{margin-left: -20%;}
+    .img-fluid{margin-left: 20%;}
+    .expirience-area{width: 20rem;}
+    .header-area{margin-top: 60% !important;}
+    .brand1{margin-left: 20%;}
+    .button-group{display: inline;}
+    .block__73422{margin-left: 20%;}
+    .float-right{margin-left: 30% !important;
+    margin-top: 5%;}
+}
+.title-text2{
+    
+font-family: "icomoon",Impact,'Arial Narrow Bold',sans-serif;
+color: rgb(2, 2, 82);
+}
+.services{
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 30px rgb(241, 159, 6);
+    margin: 5rem .5rem;
+}
+.brand-area{margin-top: 20%;}
+.services:hover{
+    background: linear-gradient(90deg, rgb(2, 2, 187) 2%,rgb(252, 250, 250) 100%);
+    color: white;
+    transform: scale(1.1, 1.1);
+}
+.project-area{
+    padding: 4rem 0rem;
+}
+.button-group{
+  margin-left: 20%;
+    padding: 5rem 0rem;
+    background: transparent;
+     border: none;
+     font: normal 500 16px/130px;
+     font-family: "icomoon",Impact,'Arial Narrow Bold',sans-serif;
+}
+.h{
+    font: normal 700 25px/12px;
+    font-family: "icomoon",Impact,'Arial Narrow Bold',sans-serif;
+}
+.title-h1{
+    font: normal 700 25px/12px;
+    font-family: "icomoon",Impact,'Arial Narrow Bold',sans-serif;
+    color: darkblue;
+}
+.element-item{
+    width: 30%;
+    box-shadow: 0px 10px 30px rgb(241, 159, 6);
+    margin: 5rem .5rem;
+}
+
+.subscribe-us-area .subscribe{
+background: linear-gradient(90deg,blue 0%, orange 100%);
+padding: 10rem 0rem;
+margin: 3rem auto;
+}
+.subscribe-title{margin-top: -9%;
+    font: normal 700 25px/12px;
+    font-family: "icomoon",Impact,'Arial Narrow Bold',sans-serif;
+    color: rgb(255, 193, 78);
+}
+.form-control{
+    width: 100%;
+    padding: 1rem 1rem;
+    border: 1px solid white;
+    background-color: rgb(3, 3, 71);
+}
+.btn{
+    width: 100px;
+    padding: 1rem 1rem;
+    border: 1px solid white;
+}
+.navbar{ z-index: 100000;
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    background: #ff8989;
+    box-shadow: 0px 10px 30px rgb(241, 159, 6);
+}
+.header-area{margin-top: 10%;}
+.footer-area{
+    background: linear-gradient(90deg,rgb(13, 134, 2) 0%, rgb(253, 157, 62) 100%);
+    width: 100%;
+}
+.navbar-nav-scroll{display: flex;
+}
+.main{
+    background: url(../images/background1.jpg);
+    width: 100%;
+    background-attachment: fixed;
+}
